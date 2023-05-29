@@ -40,6 +40,3 @@ const Memory = new Proxy(
     },
   }
 );
-
-Memory.test = "test";
-console.log(await Memory.test);
